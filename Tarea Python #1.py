@@ -132,4 +132,41 @@ print("1. Agrega lista de python \n2. Agregar a lista de SQL \n3. Agregar a list
 
 #Ejercicio 10
 
+DNIs=['58693012','89603867','79397671','19287590']
+Name=['Jose Manuel','Manuel Rosas','Rosa Merino','Benito Camilo']
+Edad=['18','19','20','21']
+Distrito=['JM','SJL','SMP','LV']
+Curso=['datux','curso:sql']
+Datos=[Name,Edad,Distrito,Curso]
+cdni=input("Ingrese su DNI: ")
+if(cdni==DNIs[0]):
+    print("El nombre del DNI ingresado es: ",Datos[0][0],"\nLa edad del ciudadano es: ",Datos[1][0], "\nEl distrito donde reside es: ",Datos[2][0])
+    Vcur=input("Ingrese su curso: ")
+    if(Vcur==Curso[0]):
+        print("Usted esta matriculado en el curso de Python Datux")
+    else:
+        print("Usted no esta matriculado en el curso de Python Datux. Retirese")
+elif(cdni==DNIs[1]):
+    print("El nombre del DNI ingresado es: ",Datos[0][1],"\nLa edad del ciudadano es: ",Datos[1][1], "\nEl distrito donde reside es: ",Datos[2][1])
+    Vcur=input("Ingrese su curso: ")
+    if(Vcur==Curso[0]):
+        print("Usted esta matriculado en el curso de Python Datux")
+    else:
+        print("Usted no esta matriculado en el curso de Python Datux. Retirese")
+elif(cdni==DNIs[2]):
+    print("El nombre del DNI ingresado es: ",Datos[0][2],"\nLa edad del ciudadano es: ",Datos[1][2], "\nEl distrito donde reside es: ",Datos[2][2])
+    Vcur=input("Ingrese su curso: ")
+    if(Vcur==Curso[0]):
+        print("Usted esta matriculado en el curso de Python Datux")
+    else:
+        print("Usted no esta matriculado en el curso de Python Datux. Retirese")
+elif(cdni==DNIs[3]):
+    print("El nombre del DNI ingresado es: ",Datos[0][3],"\nLa edad del ciudadano es: ",Datos[1][3], "\nEl distrito donde reside es: ",Datos[2][3])
+    Vcur=input("Ingrese su curso: ")
+    if(Vcur==Curso[0]):
+        print("Usted esta matriculado en el curso de Python Datux")
+    else:
+        print("Usted no esta matriculado en el curso de Python Datux. Retirese")
+else:
+    print("Ingrese un DNI registrado en el curso de Python Datux. Muchas Gracias")
 

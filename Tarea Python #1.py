@@ -169,4 +169,3 @@ elif(cdni==DNIs[3]):
         print("Usted no esta matriculado en el curso de Python Datux. Retirese")
 else:
     print("Ingrese un DNI registrado en el curso de Python Datux. Muchas Gracias")
-

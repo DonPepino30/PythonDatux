@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 #EJERCICIO 1
 
@@ -36,9 +34,6 @@ while True:
 
     else:
         print("Opción inválida. Por favor, seleccione una opción válida.")
-
-
-# In[2]:
 
 
 #Ejercicio 2
@@ -100,9 +95,6 @@ while True:
         print("Opción inválida. Por favor, seleccione una opción válida.")
 
 
-# In[3]:
-
-
 #Ejercicio 3
 
 def Obt_May():
@@ -116,7 +108,6 @@ def Obt_May():
 Obt_May()
 
 
-# In[4]:
 
 
 #Ejercicio 4 //Necesité un poco de ayuda 
@@ -131,8 +122,6 @@ if __name__ == '__main__':
     argumentos = sys.argv[1:]
     Imp_Argumentos(*argumentos)
 
-
-# In[5]:
 
 
 #Ejercicio 5 //Necesité otra ayudita : c
@@ -149,9 +138,6 @@ def List_Elemtns(path):
             print(Ruta_Compl)
 
 List_Elemtns('C:\Program Files (x86)')
-
-
-# In[6]:
 
 
 #Ejercicio 6 
@@ -186,8 +172,6 @@ def Check_Asistentes(Asistentes, Evento):
 main()
 
 
-# In[7]:
-
 
 #Ejercicio 7
 
@@ -221,9 +205,6 @@ print(Result2)
 print(Result3)
 
 
-# In[8]:
-
-
 #Ejercicio 8
 
 def Hallar_Primos(Max, Step):
@@ -245,9 +226,6 @@ def Hallar_Primos(Max, Step):
 
 Result5 = Hallar_Primos(10**5, 1)
 print(Result5)
-
-
-# In[ ]:
 
 
 #Ejercicio 9
@@ -369,10 +347,3 @@ while True:
             break
         case _:
             print("Elija acction correcta")
-
-
-# In[ ]:
-
-
-
-
